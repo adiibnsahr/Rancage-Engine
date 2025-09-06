@@ -127,10 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Core\Debug\DebugController.cpp" />
+    <ClCompile Include="Core\Debug\DebugLogger.cpp" />
+    <ClCompile Include="Core\Debug\DebugRenderer.cpp" />
     <ClCompile Include="Core\Rancage Engine.cpp" />
     <ClCompile Include="Platform\Win32\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Core\Debug\DebugController.h" />
+    <ClInclude Include="Core\Debug\DebugLogger.h" />
+    <ClInclude Include="Core\Debug\DebugRenderer.h" />
     <ClInclude Include="Core\Math\Matrix4x4.h" />
     <ClInclude Include="Core\Math\Quaternion.h" />
     <ClInclude Include="Core\Math\Transform.h" />

@@ -16,6 +16,9 @@
     <Filter Include="Platform\Win32">
       <UniqueIdentifier>{501f941f-7772-4f01-992b-3f10430e3b8d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Debug">
+      <UniqueIdentifier>{9a23f719-c37e-4a1d-9591-fcd8f7439c7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Win32\Window.cpp">
@@ -23,6 +26,15 @@
     </ClCompile>
     <ClCompile Include="Core\Rancage Engine.cpp">
       <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Debug\DebugController.cpp">
+      <Filter>Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Debug\DebugLogger.cpp">
+      <Filter>Core\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Debug\DebugRenderer.cpp">
+      <Filter>Core\Debug</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +61,15 @@
     </ClInclude>
     <ClInclude Include="Core\Utils\Logger.h">
       <Filter>Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Debug\DebugController.h">
+      <Filter>Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Debug\DebugLogger.h">
+      <Filter>Core\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Debug\DebugRenderer.h">
+      <Filter>Core\Debug</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
